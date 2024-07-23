@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="./images/blogger.png" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Css -->
+    <link rel="stylesheet" href="./pages/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+    <!-- Animated CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg" id="navBarDiv">
+        <div class="container home-nav">
+            <a class="navbar-brand"><span class="nav-logo">BlogApp</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav links me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="navlinks activated" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navlinks" href="./pages/blog app/blog.html">Admin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navlinks" href="./pages/blog app/contactUs.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Card -->
+    <div class="card displayBanner" id="bannaDiv" style="width: 100%; height: 16rem;">
+
+        <div class="card-body banner-body">
+            <h5 class="card-title bannerHead">Welcome to Your New Favorite Blog Spot</h5>
+            <p class="card-text bannerpara">Unleash Your Creativity with Your Own Blog! Join a dynamic community of
+                enthusiastic writers and readers. We provide all the essential tips and tutorials to help you launch and
+                grow your blog.
+            </p>
+        </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="container cardContainer" id="cardContainerDiv">
+        <div class="row" id="cardsRow">
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="card footerCard" id="footerDiv" style="width: 100%;">
+        <div class="card-body footerBody">
+            <div class="footerLogo">
+                <a class="navbar-brand"><span class="nav-logo">BlogApp</span></a>
+            </div>
+
+            <div class="footerList">
+                <ul>
+                    <li>Pakistan</li>
+                    <li>Business</li>
+                    <li>World</li>
+                    <li>Opinion</li>
+                    <li>Entertainment News</li>
+                </ul>
+            </div>
+            <div class="footerList">
+                <ul>
+                    <li>Life & Style</li>
+                    <li>T.Edit</li>
+                    <li>Sports</li>
+                    <li>Blog</li>
+                    <li>Videos</li>
+                </ul>
+            </div>
+            <div class="footerList">
+                <ul>
+                    <li>Style Guide</li>
+                    <li>Privacy Policy</li>
+                    <li>Copyright</li>
+                    <li>Code of Ethics</li>
+                    <li>Mobile App</li>
+                </ul>
+            </div>
+            <div class="footerLinks" id="foots">
+                <p class="FollowUs">Follow Us</p>
+                <div class="fllowLinks">
+                    <div class="footerImgs">
+                        <a href="https://github.com/Naveed786Ahmed?tab=repositories" target="_blank"><img src="./images/github.png" alt="" style="border-radius: 5px;" width="100%" height="100%"></a>
+                    </div>
+                    <div class="footerImgs">
+                        <a href="https://www.facebook.com/profile.php?id=100025201037130&mibextid=ZbWKwL" target="_blank"><img src="./images/facebook.png" alt="" style="border-radius: 5px;" width="100%" height="100%"></a>
+                    </div>
+                    <div class="footerImgs">
+                        <a href="https://www.linkedin.com/in/naveed-ahmed-8340b6281/" target="_blank"><img src="./images/LinkedIn.png" alt="" style="border-radius: 5px;" width="100%" height="100%"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid contentBlogCont" id="contentBlogContDiv" style="display: none;">
+        <div class="card" style="width: 60rem; height: auto;">
+            <div class="card-body createCard">
+                <h5 class="card-title createHead"><i class="fa-solid fa-backward" id="backHome"></i>BLOG</h5>
+                <div class="contentImgs">
+                    <img src="../../images/digital_book.webp" alt="" width="100%" height="100%">
+                </div>
+                <h1 class="contentHead">Addressing Pakistan's climate crisis: Innovative solutions from homegrown
+                    ventures</h1>
+                <div class="contentDateAuthor">
+                    <div class="contentAuthor">Naveed Ahmed</div>
+                    <div class="contentpub">2022-10-02</div>
+                </div>
+                <div class="contentMainText">
+                    
+                </div>
+
+                <div class="comments-head">
+                    COMMENTS
+                </div>
+                <div class="nameEmail">
+                    <input type="text" class="inputss" placeholder="Name (required)">
+                    <input type="text" class="inputss" placeholder="Email (required)">
+                </div>
+                <div class="commentss">
+                    <textarea name="" placeholder="Write your comment..."></textarea>
+                </div>
+                <div class="btn post">
+                    Post Comment
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Js -->
+    <script src="./pages/app.js" type="module"></script>
+</body>
+
+</html>
